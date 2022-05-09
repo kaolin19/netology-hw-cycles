@@ -10,9 +10,9 @@ class SQRServiceTest {
     @ParameterizedTest
     @CsvSource(
             value = {
-                "positive demo case, 200, 300, 3",
-                "no numbers in range, 1, 50, 0",
-                "boundary value testing, 100, 121, 2"
+                    "positive demo case, 200, 300, 3",
+                    "no numbers in range, 1, 50, 0",
+                    "boundary value testing, 100, 121, 2"
             }
     )
     void numberOfSquares(String testName, int leftBorder, int rightBorder, int expected) {
